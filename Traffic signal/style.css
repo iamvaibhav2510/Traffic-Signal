@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: dodgerblue;
+}   
+.colorBox{
+    display: block;
+    margin: auto;
+    border: 10px solid black;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-top: 70px;
+    background-color: white;
+}
+.colorBox .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn1 ,#btn2, #btn3{
+    margin: 40px;
+    border: none;
+    font-size: 3.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn1{
+    color: red;
+    background-color: lightcoral;
+}
+#btn2{
+    color: yellow;
+    background-color: lightyellow;
+}
+#btn3{
+    color: green;
+    background-color: lightgreen;
+}
